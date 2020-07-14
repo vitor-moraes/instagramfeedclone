@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {View, FlatList} from 'react-native';
 
-// import {Post, Header, Avatar, Name, PostImage, Description} from './styles';
+import {Post, Header, Avatar, Name, PostImage, Description} from './styles';
 
 const Feed = () => {
   const [feed, setFeed] = useState([]);
